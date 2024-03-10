@@ -1,0 +1,17 @@
+Y:\C Sharp\NavBarHover\Vertical Scoll\bin\Debug\Vertical Scoll.exe.config
+Y:\C Sharp\NavBarHover\Vertical Scoll\bin\Debug\Vertical Scoll.exe
+Y:\C Sharp\NavBarHover\Vertical Scoll\bin\Debug\Vertical Scoll.pdb
+Y:\C Sharp\NavBarHover\Vertical Scoll\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+Y:\C Sharp\NavBarHover\Vertical Scoll\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+Y:\C Sharp\NavBarHover\Vertical Scoll\obj\Debug\Vertical Scoll.csproj.AssemblyReference.cache
+Y:\C Sharp\NavBarHover\Vertical Scoll\obj\Debug\Vertical_Scoll.Form1.resources
+Y:\C Sharp\NavBarHover\Vertical Scoll\obj\Debug\Vertical_Scoll.Properties.Resources.resources
+Y:\C Sharp\NavBarHover\Vertical Scoll\obj\Debug\Vertical Scoll.csproj.GenerateResource.cache
+Y:\C Sharp\NavBarHover\Vertical Scoll\obj\Debug\Vertical Scoll.csproj.CoreCompileInputs.cache
+Y:\C Sharp\NavBarHover\Vertical Scoll\obj\Debug\Vertical Scoll.csproj.CopyComplete
+Y:\C Sharp\NavBarHover\Vertical Scoll\obj\Debug\Vertical Scoll.exe
+Y:\C Sharp\NavBarHover\Vertical Scoll\obj\Debug\Vertical Scoll.pdb
+Y:\C Sharp\NavBarHover\Vertical Scoll\bin\Debug\CustomControls.exe
+Y:\C Sharp\NavBarHover\Vertical Scoll\bin\Debug\FontAwesome.Sharp.dll
+Y:\C Sharp\NavBarHover\Vertical Scoll\bin\Debug\CustomControls.pdb
+Y:\C Sharp\NavBarHover\Vertical Scoll\bin\Debug\CustomControls.exe.config

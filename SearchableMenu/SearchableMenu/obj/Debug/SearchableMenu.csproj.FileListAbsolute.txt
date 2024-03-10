@@ -1,0 +1,44 @@
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\bin\Debug\SearchableMenu.exe.config
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\bin\Debug\SearchableMenu.exe
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\bin\Debug\SearchableMenu.pdb
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\bin\Debug\Siticone.Desktop.UI.dll
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.Form1.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.Properties.Resources.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.csproj.GenerateResource.cache
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.csproj.CopyComplete
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.exe
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.pdb
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.EmptyResultsUI.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.csprojAssemblyReference.cache
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Dashboard.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Account.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Accounts.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Preferences.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Profile.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Securities.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Security.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Settings.resources
+C:\Users\User\Desktop\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Users.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\bin\Debug\SearchableMenu.exe.config
+Y:\C Sharp\SearchableMenu\SearchableMenu\bin\Debug\SearchableMenu.exe
+Y:\C Sharp\SearchableMenu\SearchableMenu\bin\Debug\SearchableMenu.pdb
+Y:\C Sharp\SearchableMenu\SearchableMenu\bin\Debug\Siticone.Desktop.UI.dll
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.csproj.AssemblyReference.cache
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.Form1.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.Properties.Resources.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Account.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Accounts.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Dashboard.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.EmptyResultsUI.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Preferences.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Profile.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Securities.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Security.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Settings.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.UserControls.Users.resources
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.csproj.GenerateResource.cache
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.csproj.CoreCompileInputs.cache
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.csproj.CopyComplete
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.exe
+Y:\C Sharp\SearchableMenu\SearchableMenu\obj\Debug\SearchableMenu.pdb

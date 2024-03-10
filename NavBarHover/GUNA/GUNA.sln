@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUNA", "GUNA.csproj", "{1BC0DB89-020A-458E-99C6-014453C1C3AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC0DB89-020A-458E-99C6-014453C1C3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC0DB89-020A-458E-99C6-014453C1C3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC0DB89-020A-458E-99C6-014453C1C3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC0DB89-020A-458E-99C6-014453C1C3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C71658E-3C4E-490A-8BA4-E6E57B1D4E2C}
+	EndGlobalSection
+EndGlobal

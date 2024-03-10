@@ -1,0 +1,10 @@
+Y:\C Sharp\NavBarHover\show11\bin\Debug\show11.exe.config
+Y:\C Sharp\NavBarHover\show11\bin\Debug\show11.exe
+Y:\C Sharp\NavBarHover\show11\bin\Debug\show11.pdb
+Y:\C Sharp\NavBarHover\show11\obj\Debug\show11.csproj.AssemblyReference.cache
+Y:\C Sharp\NavBarHover\show11\obj\Debug\show11.Form1.resources
+Y:\C Sharp\NavBarHover\show11\obj\Debug\show11.Properties.Resources.resources
+Y:\C Sharp\NavBarHover\show11\obj\Debug\show11.csproj.GenerateResource.cache
+Y:\C Sharp\NavBarHover\show11\obj\Debug\show11.csproj.CoreCompileInputs.cache
+Y:\C Sharp\NavBarHover\show11\obj\Debug\show11.exe
+Y:\C Sharp\NavBarHover\show11\obj\Debug\show11.pdb

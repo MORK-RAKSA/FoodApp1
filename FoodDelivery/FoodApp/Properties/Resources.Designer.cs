@@ -113,6 +113,16 @@ namespace FoodApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gradient_blur_pink_blue_abstract_background_53876_117324 {
+            get {
+                object obj = ResourceManager.GetObject("gradient-blur-pink-blue-abstract-background_53876-117324", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LoginFormBackground {
             get {
                 object obj = ResourceManager.GetObject("LoginFormBackground", resourceCulture);

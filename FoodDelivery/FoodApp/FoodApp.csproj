@@ -139,5 +139,8 @@
   <ItemGroup>
     <None Include="Resources\Icon\facebook_icon.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient-blur-pink-blue-abstract-background_53876-117324.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

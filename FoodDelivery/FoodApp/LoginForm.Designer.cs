@@ -32,25 +32,38 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.LoginFormDocker = new Bunifu.UI.WinForms.BunifuFormDock();
             this.loginPanel = new Bunifu.UI.WinForms.BunifuShadowPanel();
+            this.openEye = new System.Windows.Forms.PictureBox();
+            this.closeEye = new System.Windows.Forms.PictureBox();
+            this.btnFacebook = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGoogle = new Guna.UI2.WinForms.Guna2Button();
             this.btnSignIn = new Guna.UI2.WinForms.Guna2Button();
             this.lbSocialSignIn = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShapes2 = new Bunifu.UI.WinForms.BunifuShapes();
             this.bunifuShapes1 = new Bunifu.UI.WinForms.BunifuShapes();
             this.lbForgotPassword = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbRemember = new Bunifu.UI.WinForms.BunifuLabel();
+            this.checkRemember = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.lbPassword = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbUsername = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbSignin = new Bunifu.UI.WinForms.BunifuLabel();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lbfoodDescib = new Bunifu.UI.WinForms.BunifuLabel();
             this.amLoginForm = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.foodImg = new System.Windows.Forms.PictureBox();
-            this.btnFacebook = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGoogle = new Guna.UI2.WinForms.Guna2Button();
-            this.checkRemember = new Bunifu.UI.WinForms.BunifuCheckBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.lbSignUp = new Bunifu.UI.WinForms.BunifuLabel();
             this.loginPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.openEye)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.closeEye)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.foodImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // LoginFormDocker
@@ -99,6 +112,10 @@
             this.loginPanel.BorderColor = System.Drawing.Color.Transparent;
             this.loginPanel.BorderRadius = 50;
             this.loginPanel.BorderThickness = 1;
+            this.loginPanel.Controls.Add(this.lbSignUp);
+            this.loginPanel.Controls.Add(this.bunifuLabel2);
+            this.loginPanel.Controls.Add(this.openEye);
+            this.loginPanel.Controls.Add(this.closeEye);
             this.loginPanel.Controls.Add(this.btnFacebook);
             this.loginPanel.Controls.Add(this.btnGoogle);
             this.loginPanel.Controls.Add(this.btnSignIn);
@@ -128,6 +145,86 @@
             this.loginPanel.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.loginPanel.TabIndex = 0;
             // 
+            // openEye
+            // 
+            this.openEye.Image = ((System.Drawing.Image)(resources.GetObject("openEye.Image")));
+            this.openEye.Location = new System.Drawing.Point(438, 255);
+            this.openEye.Name = "openEye";
+            this.openEye.Size = new System.Drawing.Size(49, 21);
+            this.openEye.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.openEye.TabIndex = 15;
+            this.openEye.TabStop = false;
+            this.openEye.Visible = false;
+            this.openEye.Click += new System.EventHandler(this.openEye_Click);
+            // 
+            // closeEye
+            // 
+            this.closeEye.Image = ((System.Drawing.Image)(resources.GetObject("closeEye.Image")));
+            this.closeEye.Location = new System.Drawing.Point(438, 255);
+            this.closeEye.Name = "closeEye";
+            this.closeEye.Size = new System.Drawing.Size(49, 21);
+            this.closeEye.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.closeEye.TabIndex = 14;
+            this.closeEye.TabStop = false;
+            this.closeEye.Click += new System.EventHandler(this.closeEye_Click);
+            // 
+            // btnFacebook
+            // 
+            this.btnFacebook.AutoRoundedCorners = true;
+            this.btnFacebook.BackColor = System.Drawing.Color.White;
+            this.btnFacebook.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
+            this.btnFacebook.BorderRadius = 26;
+            this.btnFacebook.BorderThickness = 1;
+            this.btnFacebook.CheckedState.Parent = this.btnFacebook;
+            this.btnFacebook.CustomImages.Parent = this.btnFacebook;
+            this.btnFacebook.FillColor = System.Drawing.Color.Transparent;
+            this.btnFacebook.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFacebook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
+            this.btnFacebook.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnFacebook.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnFacebook.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnFacebook.HoverState.ForeColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnFacebook.HoverState.Parent = this.btnFacebook;
+            this.btnFacebook.Image = global::FoodApp.Properties.Resources.facebook_icon;
+            this.btnFacebook.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnFacebook.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnFacebook.Location = new System.Drawing.Point(43, 558);
+            this.btnFacebook.Name = "btnFacebook";
+            this.btnFacebook.PressedColor = System.Drawing.Color.Transparent;
+            this.btnFacebook.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnFacebook.ShadowDecoration.Parent = this.btnFacebook;
+            this.btnFacebook.Size = new System.Drawing.Size(435, 55);
+            this.btnFacebook.TabIndex = 13;
+            this.btnFacebook.Text = "Sign In with Facebook";
+            // 
+            // btnGoogle
+            // 
+            this.btnGoogle.AutoRoundedCorners = true;
+            this.btnGoogle.BackColor = System.Drawing.Color.White;
+            this.btnGoogle.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
+            this.btnGoogle.BorderRadius = 26;
+            this.btnGoogle.BorderThickness = 1;
+            this.btnGoogle.CheckedState.Parent = this.btnGoogle;
+            this.btnGoogle.CustomImages.Parent = this.btnGoogle;
+            this.btnGoogle.FillColor = System.Drawing.Color.Transparent;
+            this.btnGoogle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGoogle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
+            this.btnGoogle.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnGoogle.HoverState.ForeColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnGoogle.HoverState.Parent = this.btnGoogle;
+            this.btnGoogle.Image = global::FoodApp.Properties.Resources.google_icon;
+            this.btnGoogle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGoogle.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnGoogle.Location = new System.Drawing.Point(43, 494);
+            this.btnGoogle.Name = "btnGoogle";
+            this.btnGoogle.PressedColor = System.Drawing.Color.DimGray;
+            this.btnGoogle.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.btnGoogle.ShadowDecoration.Parent = this.btnGoogle;
+            this.btnGoogle.Size = new System.Drawing.Size(435, 55);
+            this.btnGoogle.TabIndex = 12;
+            this.btnGoogle.Text = "Sign In with Google";
+            this.btnGoogle.Click += new System.EventHandler(this.btnGoogle_Click);
+            // 
             // btnSignIn
             // 
             this.btnSignIn.Animated = true;
@@ -151,7 +248,7 @@
             this.lbSocialSignIn.AutoEllipsis = false;
             this.lbSocialSignIn.CursorType = null;
             this.lbSocialSignIn.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.lbSocialSignIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbSocialSignIn.ForeColor = System.Drawing.Color.Gray;
             this.lbSocialSignIn.Location = new System.Drawing.Point(214, 448);
             this.lbSocialSignIn.Name = "lbSocialSignIn";
             this.lbSocialSignIn.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -225,6 +322,59 @@
             this.lbRemember.Text = "Remember me";
             this.lbRemember.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbRemember.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // checkRemember
+            // 
+            this.checkRemember.AllowBindingControlAnimation = true;
+            this.checkRemember.AllowBindingControlColorChanges = false;
+            this.checkRemember.AllowBindingControlLocation = true;
+            this.checkRemember.AllowCheckBoxAnimation = false;
+            this.checkRemember.AllowCheckmarkAnimation = true;
+            this.checkRemember.AllowOnHoverStates = true;
+            this.checkRemember.AutoCheck = true;
+            this.checkRemember.BackColor = System.Drawing.Color.Transparent;
+            this.checkRemember.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("checkRemember.BackgroundImage")));
+            this.checkRemember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.checkRemember.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
+            this.checkRemember.BorderRadius = 12;
+            this.checkRemember.Checked = false;
+            this.checkRemember.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Unchecked;
+            this.checkRemember.Cursor = System.Windows.Forms.Cursors.Default;
+            this.checkRemember.CustomCheckmarkImage = null;
+            this.checkRemember.Location = new System.Drawing.Point(47, 327);
+            this.checkRemember.MinimumSize = new System.Drawing.Size(17, 17);
+            this.checkRemember.Name = "checkRemember";
+            this.checkRemember.OnCheck.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
+            this.checkRemember.OnCheck.BorderRadius = 12;
+            this.checkRemember.OnCheck.BorderThickness = 2;
+            this.checkRemember.OnCheck.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
+            this.checkRemember.OnCheck.CheckmarkColor = System.Drawing.Color.White;
+            this.checkRemember.OnCheck.CheckmarkThickness = 2;
+            this.checkRemember.OnDisable.BorderColor = System.Drawing.Color.LightGray;
+            this.checkRemember.OnDisable.BorderRadius = 12;
+            this.checkRemember.OnDisable.BorderThickness = 2;
+            this.checkRemember.OnDisable.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.checkRemember.OnDisable.CheckmarkColor = System.Drawing.Color.LightGray;
+            this.checkRemember.OnDisable.CheckmarkThickness = 2;
+            this.checkRemember.OnHoverChecked.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.checkRemember.OnHoverChecked.BorderRadius = 12;
+            this.checkRemember.OnHoverChecked.BorderThickness = 2;
+            this.checkRemember.OnHoverChecked.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.checkRemember.OnHoverChecked.CheckmarkColor = System.Drawing.Color.White;
+            this.checkRemember.OnHoverChecked.CheckmarkThickness = 2;
+            this.checkRemember.OnHoverUnchecked.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.checkRemember.OnHoverUnchecked.BorderRadius = 12;
+            this.checkRemember.OnHoverUnchecked.BorderThickness = 1;
+            this.checkRemember.OnHoverUnchecked.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.checkRemember.OnUncheck.BorderColor = System.Drawing.Color.DarkGray;
+            this.checkRemember.OnUncheck.BorderRadius = 12;
+            this.checkRemember.OnUncheck.BorderThickness = 1;
+            this.checkRemember.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.checkRemember.Size = new System.Drawing.Size(22, 22);
+            this.checkRemember.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Bunifu;
+            this.checkRemember.TabIndex = 5;
+            this.checkRemember.ThreeState = false;
+            this.checkRemember.ToolTipText = null;
             // 
             // lbPassword
             // 
@@ -334,33 +484,78 @@
             this.txtUsername.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txtUsername.TabIndex = 0;
             // 
-            // lbfoodDescib
-            // 
-            this.lbfoodDescib.AllowParentOverrides = false;
-            this.lbfoodDescib.AutoEllipsis = false;
-            this.lbfoodDescib.CursorType = null;
-            this.lbfoodDescib.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbfoodDescib.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.lbfoodDescib.Location = new System.Drawing.Point(47, 571);
-            this.lbfoodDescib.Name = "lbfoodDescib";
-            this.lbfoodDescib.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbfoodDescib.Size = new System.Drawing.Size(624, 62);
-            this.lbfoodDescib.TabIndex = 9;
-            this.lbfoodDescib.Text = "Efficiently order delicious meals online, enjoying convenience\r\nand variety with " +
-    "our seamless food ordering platform.\r\n";
-            this.lbfoodDescib.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lbfoodDescib.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // amLoginForm
             // 
             this.amLoginForm.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_SLIDE;
+            // 
+            // bunifuLabel1
+            // 
+            this.bunifuLabel1.AllowParentOverrides = false;
+            this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
+            this.bunifuLabel1.Location = new System.Drawing.Point(81, 513);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(577, 54);
+            this.bunifuLabel1.TabIndex = 2;
+            this.bunifuLabel1.Text = "Hungry? Let\'s fix that appetite\r\n";
+            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.Animated = true;
+            this.guna2TextBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TextBox1.BorderRadius = 8;
+            this.guna2TextBox1.BorderThickness = 0;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.guna2TextBox1.DefaultText = "Order Now!";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
+            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI Black", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox1.ForeColor = System.Drawing.Color.White;
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
+            this.guna2TextBox1.Location = new System.Drawing.Point(408, 569);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(14);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderText = "";
+            this.guna2TextBox1.ReadOnly = true;
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.SelectionStart = 10;
+            this.guna2TextBox1.ShadowDecoration.BorderRadius = 10;
+            this.guna2TextBox1.ShadowDecoration.Depth = 100;
+            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
+            this.guna2TextBox1.Size = new System.Drawing.Size(250, 60);
+            this.guna2TextBox1.TabIndex = 3;
+            this.guna2TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::FoodApp.Properties.Resources._25696379_7039435_Photoroom_png_Photoroom;
+            this.pictureBox1.Location = new System.Drawing.Point(-253, 475);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(661, 611);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // foodImg
             // 
             this.foodImg.BackColor = System.Drawing.Color.Transparent;
             this.foodImg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.foodImg.Image = global::FoodApp.Properties.Resources.Food3D1;
-            this.foodImg.Location = new System.Drawing.Point(47, 139);
+            this.foodImg.Location = new System.Drawing.Point(59, 100);
             this.foodImg.Name = "foodImg";
             this.foodImg.Size = new System.Drawing.Size(609, 502);
             this.foodImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -368,117 +563,59 @@
             this.foodImg.TabStop = false;
             this.foodImg.WaitOnLoad = true;
             // 
-            // btnFacebook
+            // pictureBox2
             // 
-            this.btnFacebook.Animated = true;
-            this.btnFacebook.AutoRoundedCorners = true;
-            this.btnFacebook.BackColor = System.Drawing.Color.White;
-            this.btnFacebook.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
-            this.btnFacebook.BorderRadius = 26;
-            this.btnFacebook.BorderThickness = 1;
-            this.btnFacebook.CheckedState.Parent = this.btnFacebook;
-            this.btnFacebook.CustomImages.Parent = this.btnFacebook;
-            this.btnFacebook.FillColor = System.Drawing.Color.Transparent;
-            this.btnFacebook.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFacebook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
-            this.btnFacebook.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnFacebook.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnFacebook.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnFacebook.HoverState.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnFacebook.HoverState.Parent = this.btnFacebook;
-            this.btnFacebook.Image = global::FoodApp.Properties.Resources.facebook_icon;
-            this.btnFacebook.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnFacebook.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnFacebook.Location = new System.Drawing.Point(43, 558);
-            this.btnFacebook.Name = "btnFacebook";
-            this.btnFacebook.PressedColor = System.Drawing.Color.Transparent;
-            this.btnFacebook.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnFacebook.ShadowDecoration.Parent = this.btnFacebook;
-            this.btnFacebook.Size = new System.Drawing.Size(435, 55);
-            this.btnFacebook.TabIndex = 13;
-            this.btnFacebook.Text = "Sign In with Facebook";
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(432, -53);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(305, 246);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
             // 
-            // btnGoogle
+            // pictureBox3
             // 
-            this.btnGoogle.Animated = true;
-            this.btnGoogle.AutoRoundedCorners = true;
-            this.btnGoogle.BackColor = System.Drawing.Color.White;
-            this.btnGoogle.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
-            this.btnGoogle.BorderRadius = 26;
-            this.btnGoogle.BorderThickness = 1;
-            this.btnGoogle.CheckedState.Parent = this.btnGoogle;
-            this.btnGoogle.CustomImages.Parent = this.btnGoogle;
-            this.btnGoogle.FillColor = System.Drawing.Color.Transparent;
-            this.btnGoogle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGoogle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
-            this.btnGoogle.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnGoogle.HoverState.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnGoogle.HoverState.Parent = this.btnGoogle;
-            this.btnGoogle.Image = global::FoodApp.Properties.Resources.google_icon;
-            this.btnGoogle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGoogle.ImageSize = new System.Drawing.Size(35, 35);
-            this.btnGoogle.Location = new System.Drawing.Point(43, 494);
-            this.btnGoogle.Name = "btnGoogle";
-            this.btnGoogle.PressedColor = System.Drawing.Color.DimGray;
-            this.btnGoogle.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.btnGoogle.ShadowDecoration.Parent = this.btnGoogle;
-            this.btnGoogle.Size = new System.Drawing.Size(435, 55);
-            this.btnGoogle.TabIndex = 12;
-            this.btnGoogle.Text = "Sign In with Google";
-            this.btnGoogle.Click += new System.EventHandler(this.btnGoogle_Click);
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(243, 201);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 6;
+            this.pictureBox3.TabStop = false;
             // 
-            // checkRemember
+            // bunifuLabel2
             // 
-            this.checkRemember.AllowBindingControlAnimation = true;
-            this.checkRemember.AllowBindingControlColorChanges = false;
-            this.checkRemember.AllowBindingControlLocation = true;
-            this.checkRemember.AllowCheckBoxAnimation = false;
-            this.checkRemember.AllowCheckmarkAnimation = true;
-            this.checkRemember.AllowOnHoverStates = true;
-            this.checkRemember.AutoCheck = true;
-            this.checkRemember.BackColor = System.Drawing.Color.Transparent;
-            this.checkRemember.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("checkRemember.BackgroundImage")));
-            this.checkRemember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkRemember.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
-            this.checkRemember.BorderRadius = 12;
-            this.checkRemember.Checked = false;
-            this.checkRemember.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Unchecked;
-            this.checkRemember.Cursor = System.Windows.Forms.Cursors.Default;
-            this.checkRemember.CustomCheckmarkImage = null;
-            this.checkRemember.Location = new System.Drawing.Point(47, 327);
-            this.checkRemember.MinimumSize = new System.Drawing.Size(17, 17);
-            this.checkRemember.Name = "checkRemember";
-            this.checkRemember.OnCheck.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
-            this.checkRemember.OnCheck.BorderRadius = 12;
-            this.checkRemember.OnCheck.BorderThickness = 2;
-            this.checkRemember.OnCheck.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
-            this.checkRemember.OnCheck.CheckmarkColor = System.Drawing.Color.White;
-            this.checkRemember.OnCheck.CheckmarkThickness = 2;
-            this.checkRemember.OnDisable.BorderColor = System.Drawing.Color.LightGray;
-            this.checkRemember.OnDisable.BorderRadius = 12;
-            this.checkRemember.OnDisable.BorderThickness = 2;
-            this.checkRemember.OnDisable.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.checkRemember.OnDisable.CheckmarkColor = System.Drawing.Color.LightGray;
-            this.checkRemember.OnDisable.CheckmarkThickness = 2;
-            this.checkRemember.OnHoverChecked.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.checkRemember.OnHoverChecked.BorderRadius = 12;
-            this.checkRemember.OnHoverChecked.BorderThickness = 2;
-            this.checkRemember.OnHoverChecked.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.checkRemember.OnHoverChecked.CheckmarkColor = System.Drawing.Color.White;
-            this.checkRemember.OnHoverChecked.CheckmarkThickness = 2;
-            this.checkRemember.OnHoverUnchecked.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.checkRemember.OnHoverUnchecked.BorderRadius = 12;
-            this.checkRemember.OnHoverUnchecked.BorderThickness = 1;
-            this.checkRemember.OnHoverUnchecked.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.checkRemember.OnUncheck.BorderColor = System.Drawing.Color.DarkGray;
-            this.checkRemember.OnUncheck.BorderRadius = 12;
-            this.checkRemember.OnUncheck.BorderThickness = 1;
-            this.checkRemember.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.checkRemember.Size = new System.Drawing.Size(22, 22);
-            this.checkRemember.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Bunifu;
-            this.checkRemember.TabIndex = 5;
-            this.checkRemember.ThreeState = false;
-            this.checkRemember.ToolTipText = null;
+            this.bunifuLabel2.AllowParentOverrides = false;
+            this.bunifuLabel2.AutoEllipsis = false;
+            this.bunifuLabel2.CursorType = null;
+            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.bunifuLabel2.ForeColor = System.Drawing.Color.Gray;
+            this.bunifuLabel2.Location = new System.Drawing.Point(120, 740);
+            this.bunifuLabel2.Name = "bunifuLabel2";
+            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel2.Size = new System.Drawing.Size(204, 28);
+            this.bunifuLabel2.TabIndex = 16;
+            this.bunifuLabel2.Text = "Don\'t have an account?";
+            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // lbSignUp
+            // 
+            this.lbSignUp.AllowParentOverrides = false;
+            this.lbSignUp.AutoEllipsis = false;
+            this.lbSignUp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbSignUp.CursorType = System.Windows.Forms.Cursors.Hand;
+            this.lbSignUp.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSignUp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(122)))), ((int)(((byte)(252)))));
+            this.lbSignUp.Location = new System.Drawing.Point(330, 745);
+            this.lbSignUp.Name = "lbSignUp";
+            this.lbSignUp.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbSignUp.Size = new System.Drawing.Size(60, 23);
+            this.lbSignUp.TabIndex = 17;
+            this.lbSignUp.Text = "Sign Up";
+            this.lbSignUp.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lbSignUp.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lbSignUp.Click += new System.EventHandler(this.lbSignUp_Click);
             // 
             // LoginForm
             // 
@@ -486,7 +623,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1350, 850);
-            this.Controls.Add(this.lbfoodDescib);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.bunifuLabel1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.loginPanel);
             this.Controls.Add(this.foodImg);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -495,9 +636,15 @@
             this.MinimumSize = new System.Drawing.Size(1350, 850);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FoodPanda";
             this.loginPanel.ResumeLayout(false);
             this.loginPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.openEye)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.closeEye)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.foodImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -514,7 +661,6 @@
         private Bunifu.UI.WinForms.BunifuLabel lbForgotPassword;
         private Bunifu.UI.WinForms.BunifuLabel lbRemember;
         private System.Windows.Forms.PictureBox foodImg;
-        private Bunifu.UI.WinForms.BunifuLabel lbfoodDescib;
         private Bunifu.UI.WinForms.BunifuShapes bunifuShapes1;
         private Bunifu.UI.WinForms.BunifuLabel lbSocialSignIn;
         private Bunifu.UI.WinForms.BunifuShapes bunifuShapes2;
@@ -524,6 +670,15 @@
         private Guna.UI2.WinForms.Guna2TextBox txtPassword;
         private Guna.UI2.WinForms.Guna2TextBox txtUsername;
         private Guna.UI2.WinForms.Guna2AnimateWindow amLoginForm;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox closeEye;
+        private System.Windows.Forms.PictureBox openEye;
+        private Bunifu.UI.WinForms.BunifuLabel lbSignUp;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
     }
 }
 

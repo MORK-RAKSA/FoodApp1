@@ -17,13 +17,34 @@ namespace FoodApp
         public LoginForm()
         {
             InitializeComponent();
+            closeEye.Click += closeEye_Click;
+            openEye.Click += openEye_Click;
         }
 
         private void btnGoogle_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello World");
-            MessageBox.Show("Hello World Mork Raksa");
-            MessageBox.Show("Hello World Phorn Phanny");
+        }
+
+        private void closeEye_Click(object sender, EventArgs e)
+        {
+            closeEye.Visible = false;
+            openEye.Visible = true;
+            txtPassword.UseSystemPasswordChar = false;
+        }
+
+        private void openEye_Click(object sender, EventArgs e)
+        {
+            closeEye.Visible = true;
+            openEye.Visible = false;
+            txtPassword.UseSystemPasswordChar = true;
+        }
+
+        private void lbSignUp_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SignUpForm signUpForm = new SignUpForm();
+            signUpForm.Visible = true;
         }
 
         /*       static void setDoubleBuffer(Control ctr, bool doublebuffered)
